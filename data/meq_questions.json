@@ -6,248 +6,248 @@
     "citation": "Horne JA, Östberg O. Int J Chronobiol. 1976;4:97-110.",
     "copyright": "© 2008 Center for Environmental Therapeutics (cet.org). Free for personal use; commercial use prohibited.",
     "score_range": [16, 86],
-    "scoring_method": "sum"
-  },
-  "questions": [
-    {
-      "id": "q1",
-      "number": 1,
-      "category": "preferred_rise_time",
-      "prompt": "Approximately what time would you get up if you were entirely free to plan your day?",
-      "options": [
-        {"label": "5:00 AM – 6:30 AM",   "value": 5},
-        {"label": "6:30 AM – 7:45 AM",   "value": 4},
-        {"label": "7:45 AM – 9:45 AM",   "value": 3},
-        {"label": "9:45 AM – 11:00 AM",  "value": 2},
-        {"label": "11:00 AM – 12:00 noon","value": 1}
-      ]
-    },
-    {
-      "id": "q2",
-      "number": 2,
-      "category": "preferred_bed_time",
-      "prompt": "Approximately what time would you go to bed if you were entirely free to plan your evening?",
-      "options": [
-        {"label": "8:00 PM – 9:00 PM",     "value": 5},
-        {"label": "9:00 PM – 10:15 PM",    "value": 4},
-        {"label": "10:15 PM – 12:30 AM",   "value": 3},
-        {"label": "12:30 AM – 1:45 AM",    "value": 2},
-        {"label": "1:45 AM – 3:00 AM",     "value": 1}
-      ]
-    },
-    {
-      "id": "q3",
-      "number": 3,
-      "category": "alarm_dependence",
-      "prompt": "If you usually have to get up at a specific time in the morning, how much do you depend on an alarm clock?",
-      "options": [
-        {"label": "Not at all",  "value": 4},
-        {"label": "Slightly",    "value": 3},
-        {"label": "Somewhat",    "value": 2},
-        {"label": "Very much",   "value": 1}
-      ]
-    },
-    {
-      "id": "q4",
-      "number": 4,
-      "category": "morning_rise_ease",
-      "prompt": "How easy do you find it to get up in the morning (when you are not awakened unexpectedly)?",
-      "options": [
-        {"label": "Very difficult",     "value": 1},
-        {"label": "Somewhat difficult", "value": 2},
-        {"label": "Fairly easy",        "value": 3},
-        {"label": "Very easy",          "value": 4}
-      ]
-    },
-    {
-      "id": "q5",
-      "number": 5,
-      "category": "morning_alertness",
-      "prompt": "How alert do you feel during the first half hour after you wake up in the morning?",
-      "options": [
-        {"label": "Not at all alert", "value": 1},
-        {"label": "Slightly alert",   "value": 2},
-        {"label": "Fairly alert",     "value": 3},
-        {"label": "Very alert",       "value": 4}
-      ]
-    },
-    {
-      "id": "q6",
-      "number": 6,
-      "category": "morning_appetite",
-      "prompt": "How hungry do you feel during the first half hour after you wake up?",
-      "options": [
-        {"label": "Not at all hungry", "value": 1},
-        {"label": "Slightly hungry",   "value": 2},
-        {"label": "Fairly hungry",     "value": 3},
-        {"label": "Very hungry",       "value": 4}
-      ]
-    },
-    {
-      "id": "q7",
-      "number": 7,
-      "category": "morning_refreshed",
-      "prompt": "During the first half hour after you wake up in the morning, how do you feel?",
-      "options": [
-        {"label": "Very tired",       "value": 1},
-        {"label": "Fairly tired",     "value": 2},
-        {"label": "Fairly refreshed", "value": 3},
-        {"label": "Very refreshed",   "value": 4}
-      ]
-    },
-    {
-      "id": "q8",
-      "number": 8,
-      "category": "bedtime_drift_no_commitments",
-      "prompt": "If you had no commitments the next day, what time would you go to bed compared to your usual bedtime?",
-      "options": [
-        {"label": "Seldom or never later", "value": 4},
-        {"label": "Less than 1 hour later","value": 3},
-        {"label": "1–2 hours later",       "value": 2},
-        {"label": "More than 2 hours later","value": 1}
-      ]
-    },
-    {
-      "id": "q9",
-      "number": 9,
-      "category": "early_exercise_performance",
-      "prompt": "You have decided to do physical exercise. A friend suggests that you do this for one hour twice a week, and the best time for him is between 7–8 AM. Bearing in mind nothing but your own internal 'clock,' how do you think you would perform?",
-      "options": [
-        {"label": "Would be in good form",       "value": 4},
-        {"label": "Would be in reasonable form", "value": 3},
-        {"label": "Would find it difficult",     "value": 2},
-        {"label": "Would find it very difficult","value": 1}
-      ]
-    },
-    {
-      "id": "q10",
-      "number": 10,
-      "category": "evening_tiredness_time",
-      "prompt": "At approximately what time in the evening do you feel tired, and, as a result, in need of sleep?",
-      "options": [
-        {"label": "8:00 PM – 9:00 PM",    "value": 5},
-        {"label": "9:00 PM – 10:15 PM",   "value": 4},
-        {"label": "10:15 PM – 12:45 AM",  "value": 3},
-        {"label": "12:45 AM – 2:00 AM",   "value": 2},
-        {"label": "2:00 AM – 3:00 AM",    "value": 1}
-      ]
-    },
-    {
-      "id": "q11",
-      "number": 11,
-      "category": "peak_mental_performance_window",
-      "prompt": "You want to be at your peak performance for a test that you know is going to be mentally exhausting and will last two hours. You are entirely free to plan your day. Considering only your 'internal clock,' which one of the four testing times would you choose?",
-      "options": [
-        {"label": "8 AM – 10 AM",   "value": 6},
-        {"label": "11 AM – 1 PM",   "value": 4},
-        {"label": "3 PM – 5 PM",    "value": 2},
-        {"label": "7 PM – 9 PM",    "value": 0}
-      ]
-    },
-    {
-      "id": "q12",
-      "number": 12,
-      "category": "tiredness_at_2300",
-      "prompt": "If you got into bed at 11 PM, how tired would you be?",
-      "options": [
-        {"label": "Not at all tired", "value": 0},
-        {"label": "A little tired",   "value": 2},
-        {"label": "Fairly tired",     "value": 3},
-        {"label": "Very tired",       "value": 5}
-      ]
-    },
-    {
-      "id": "q13",
-      "number": 13,
-      "category": "late_bedtime_response",
-      "prompt": "For some reason you have gone to bed several hours later than usual, but there is no need to get up at any particular time the next morning. Which one of the following are you most likely to do?",
-      "options": [
-        {"label": "Will wake up at usual time, but will not fall back asleep", "value": 4},
-        {"label": "Will wake up at usual time and will doze thereafter",        "value": 3},
-        {"label": "Will wake up at usual time, but will fall asleep again",     "value": 2},
-        {"label": "Will not wake up until later than usual",                    "value": 1}
-      ]
-    },
-    {
-      "id": "q14",
-      "number": 14,
-      "category": "night_watch_strategy",
-      "prompt": "One night you have to remain awake between 4–6 AM in order to carry out a night watch. You have no time commitments the next day. Which one of the alternatives would suit you best?",
-      "options": [
-        {"label": "Would not go to bed until the watch is over",  "value": 1},
-        {"label": "Would take a nap before and sleep after",      "value": 2},
-        {"label": "Would take a good sleep before and nap after", "value": 3},
-        {"label": "Would sleep only before the watch",            "value": 4}
-      ]
-    },
-    {
-      "id": "q15",
-      "number": 15,
-      "category": "hard_physical_work_window",
-      "prompt": "You have two hours of hard physical work. You are entirely free to plan your day. Considering only your internal 'clock,' which of the following times would you choose?",
-      "options": [
-        {"label": "8 AM – 10 AM",  "value": 4},
-        {"label": "11 AM – 1 PM",  "value": 3},
-        {"label": "3 PM – 5 PM",   "value": 2},
-        {"label": "7 PM – 9 PM",   "value": 1}
-      ]
-    },
-    {
-      "id": "q16",
-      "number": 16,
-      "category": "late_exercise_performance",
-      "prompt": "You have decided to do physical exercise. A friend suggests that you do this for one hour twice a week. The best time for her is between 10–11 PM. Bearing in mind only your internal 'clock,' how well do you think you would perform?",
-      "options": [
-        {"label": "Would be in good form",        "value": 1},
-        {"label": "Would be in reasonable form",  "value": 2},
-        {"label": "Would find it difficult",      "value": 3},
-        {"label": "Would find it very difficult", "value": 4}
-      ]
-    },
-    {
-      "id": "q17",
-      "number": 17,
-      "category": "preferred_work_start",
-      "prompt": "Suppose you can choose your own work hours. Assume that you work a five-hour day (including breaks), your job is interesting, and you are paid based on your performance. At approximately what time would you choose to begin?",
-      "options": [
-        {"label": "5 hours starting between 4–8 AM",     "value": 5},
-        {"label": "5 hours starting between 8–9 AM",     "value": 4},
-        {"label": "5 hours starting between 9 AM – 2 PM","value": 3},
-        {"label": "5 hours starting between 2–5 PM",     "value": 2},
-        {"label": "5 hours starting between 5 PM – 4 AM","value": 1}
-      ]
-    },
-    {
-      "id": "q18",
-      "number": 18,
-      "category": "peak_feeling_time",
-      "prompt": "At approximately what time of day do you usually feel your best?",
-      "options": [
-        {"label": "5–8 AM",       "value": 5},
-        {"label": "8–10 AM",      "value": 4},
-        {"label": "10 AM – 5 PM", "value": 3},
-        {"label": "5–10 PM",      "value": 2},
-        {"label": "10 PM – 5 AM", "value": 1}
-      ]
-    },
-    {
-      "id": "q19",
-      "number": 19,
-      "category": "self_identified_type",
-      "prompt": "One hears about 'morning types' and 'evening types.' Which one of these types do you consider yourself to be?",
-      "options": [
-        {"label": "Definitely a morning type",                          "value": 6},
-        {"label": "Rather more a morning type than an evening type",    "value": 4},
-        {"label": "Rather more an evening type than a morning type",    "value": 2},
-        {"label": "Definitely an evening type",                         "value": 1}
-      ]
-    }
-  ],
-  "interpretation_bands": [
-    {"min": 16, "max": 30, "code": "definite_evening",  "label": "Definitely Evening Type"},
-    {"min": 31, "max": 41, "code": "moderate_evening",  "label": "Moderately Evening Type"},
-    {"min": 42, "max": 58, "code": "intermediate",      "label": "Intermediate Type"},
-    {"min": 59, "max": 69, "code": "moderate_morning",  "label": "Moderately Morning Type"},
-    {"min": 70, "max": 86, "code": "definite_morning",  "label": "Definitely Morning Type"}
-  ]
+    "scoring_method": "sum",
+    "questions": [
+      {
+        "id": "q1",
+        "number": 1,
+        "category": "preferred_rise_time",
+        "prompt": "Approximately what time would you get up if you were entirely free to plan your day?",
+        "options": [
+          {"label": "5:00 AM – 6:30 AM",   "value": 5},
+          {"label": "6:30 AM – 7:45 AM",   "value": 4},
+          {"label": "7:45 AM – 9:45 AM",   "value": 3},
+          {"label": "9:45 AM – 11:00 AM",  "value": 2},
+          {"label": "11:00 AM – 12:00 noon","value": 1}
+        ]
+      },
+      {
+        "id": "q2",
+        "number": 2,
+        "category": "preferred_bed_time",
+        "prompt": "Approximately what time would you go to bed if you were entirely free to plan your evening?",
+        "options": [
+          {"label": "8:00 PM – 9:00 PM",     "value": 5},
+          {"label": "9:00 PM – 10:15 PM",    "value": 4},
+          {"label": "10:15 PM – 12:30 AM",   "value": 3},
+          {"label": "12:30 AM – 1:45 AM",    "value": 2},
+          {"label": "1:45 AM – 3:00 AM",     "value": 1}
+        ]
+      },
+      {
+        "id": "q3",
+        "number": 3,
+        "category": "alarm_dependence",
+        "prompt": "If you usually have to get up at a specific time in the morning, how much do you depend on an alarm clock?",
+        "options": [
+          {"label": "Not at all",  "value": 4},
+          {"label": "Slightly",    "value": 3},
+          {"label": "Somewhat",    "value": 2},
+          {"label": "Very much",   "value": 1}
+        ]
+      },
+      {
+        "id": "q4",
+        "number": 4,
+        "category": "morning_rise_ease",
+        "prompt": "How easy do you find it to get up in the morning (when you are not awakened unexpectedly)?",
+        "options": [
+          {"label": "Very difficult",     "value": 1},
+          {"label": "Somewhat difficult", "value": 2},
+          {"label": "Fairly easy",        "value": 3},
+          {"label": "Very easy",          "value": 4}
+        ]
+      },
+      {
+        "id": "q5",
+        "number": 5,
+        "category": "morning_alertness",
+        "prompt": "How alert do you feel during the first half hour after you wake up in the morning?",
+        "options": [
+          {"label": "Not at all alert", "value": 1},
+          {"label": "Slightly alert",   "value": 2},
+          {"label": "Fairly alert",     "value": 3},
+          {"label": "Very alert",       "value": 4}
+        ]
+      },
+      {
+        "id": "q6",
+        "number": 6,
+        "category": "morning_appetite",
+        "prompt": "How hungry do you feel during the first half hour after you wake up?",
+        "options": [
+          {"label": "Not at all hungry", "value": 1},
+          {"label": "Slightly hungry",   "value": 2},
+          {"label": "Fairly hungry",     "value": 3},
+          {"label": "Very hungry",       "value": 4}
+        ]
+      },
+      {
+        "id": "q7",
+        "number": 7,
+        "category": "morning_refreshed",
+        "prompt": "During the first half hour after you wake up in the morning, how do you feel?",
+        "options": [
+          {"label": "Very tired",       "value": 1},
+          {"label": "Fairly tired",     "value": 2},
+          {"label": "Fairly refreshed", "value": 3},
+          {"label": "Very refreshed",   "value": 4}
+        ]
+      },
+      {
+        "id": "q8",
+        "number": 8,
+        "category": "bedtime_drift_no_commitments",
+        "prompt": "If you had no commitments the next day, what time would you go to bed compared to your usual bedtime?",
+        "options": [
+          {"label": "Seldom or never later", "value": 4},
+          {"label": "Less than 1 hour later","value": 3},
+          {"label": "1–2 hours later",       "value": 2},
+          {"label": "More than 2 hours later","value": 1}
+        ]
+      },
+      {
+        "id": "q9",
+        "number": 9,
+        "category": "early_exercise_performance",
+        "prompt": "You have decided to do physical exercise. A friend suggests that you do this for one hour twice a week, and the best time for him is between 7–8 AM. Bearing in mind nothing but your own internal 'clock,' how do you think you would perform?",
+        "options": [
+          {"label": "Would be in good form",       "value": 4},
+          {"label": "Would be in reasonable form", "value": 3},
+          {"label": "Would find it difficult",     "value": 2},
+          {"label": "Would find it very difficult","value": 1}
+        ]
+      },
+      {
+        "id": "q10",
+        "number": 10,
+        "category": "evening_tiredness_time",
+        "prompt": "At approximately what time in the evening do you feel tired, and, as a result, in need of sleep?",
+        "options": [
+          {"label": "8:00 PM – 9:00 PM",    "value": 5},
+          {"label": "9:00 PM – 10:15 PM",   "value": 4},
+          {"label": "10:15 PM – 12:45 AM",  "value": 3},
+          {"label": "12:45 AM – 2:00 AM",   "value": 2},
+          {"label": "2:00 AM – 3:00 AM",    "value": 1}
+        ]
+      },
+      {
+        "id": "q11",
+        "number": 11,
+        "category": "peak_mental_performance_window",
+        "prompt": "You want to be at your peak performance for a test that you know is going to be mentally exhausting and will last two hours. You are entirely free to plan your day. Considering only your 'internal clock,' which one of the four testing times would you choose?",
+        "options": [
+          {"label": "8 AM – 10 AM",   "value": 6},
+          {"label": "11 AM – 1 PM",   "value": 4},
+          {"label": "3 PM – 5 PM",    "value": 2},
+          {"label": "7 PM – 9 PM",    "value": 0}
+        ]
+      },
+      {
+        "id": "q12",
+        "number": 12,
+        "category": "tiredness_at_2300",
+        "prompt": "If you got into bed at 11 PM, how tired would you be?",
+        "options": [
+          {"label": "Not at all tired", "value": 0},
+          {"label": "A little tired",   "value": 2},
+          {"label": "Fairly tired",     "value": 3},
+          {"label": "Very tired",       "value": 5}
+        ]
+      },
+      {
+        "id": "q13",
+        "number": 13,
+        "category": "late_bedtime_response",
+        "prompt": "For some reason you have gone to bed several hours later than usual, but there is no need to get up at any particular time the next morning. Which one of the following are you most likely to do?",
+        "options": [
+          {"label": "Will wake up at usual time, but will not fall back asleep", "value": 4},
+          {"label": "Will wake up at usual time and will doze thereafter",        "value": 3},
+          {"label": "Will wake up at usual time, but will fall asleep again",     "value": 2},
+          {"label": "Will not wake up until later than usual",                    "value": 1}
+        ]
+      },
+      {
+        "id": "q14",
+        "number": 14,
+        "category": "night_watch_strategy",
+        "prompt": "One night you have to remain awake between 4–6 AM in order to carry out a night watch. You have no time commitments the next day. Which one of the alternatives would suit you best?",
+        "options": [
+          {"label": "Would not go to bed until the watch is over",  "value": 1},
+          {"label": "Would take a nap before and sleep after",      "value": 2},
+          {"label": "Would take a good sleep before and nap after", "value": 3},
+          {"label": "Would sleep only before the watch",            "value": 4}
+        ]
+      },
+      {
+        "id": "q15",
+        "number": 15,
+        "category": "hard_physical_work_window",
+        "prompt": "You have two hours of hard physical work. You are entirely free to plan your day. Considering only your internal 'clock,' which of the following times would you choose?",
+        "options": [
+          {"label": "8 AM – 10 AM",  "value": 4},
+          {"label": "11 AM – 1 PM",  "value": 3},
+          {"label": "3 PM – 5 PM",   "value": 2},
+          {"label": "7 PM – 9 PM",   "value": 1}
+        ]
+      },
+      {
+        "id": "q16",
+        "number": 16,
+        "category": "late_exercise_performance",
+        "prompt": "You have decided to do physical exercise. A friend suggests that you do this for one hour twice a week. The best time for her is between 10–11 PM. Bearing in mind only your internal 'clock,' how well do you think you would perform?",
+        "options": [
+          {"label": "Would be in good form",        "value": 1},
+          {"label": "Would be in reasonable form",  "value": 2},
+          {"label": "Would find it difficult",      "value": 3},
+          {"label": "Would find it very difficult", "value": 4}
+        ]
+      },
+      {
+        "id": "q17",
+        "number": 17,
+        "category": "preferred_work_start",
+        "prompt": "Suppose you can choose your own work hours. Assume that you work a five-hour day (including breaks), your job is interesting, and you are paid based on your performance. At approximately what time would you choose to begin?",
+        "options": [
+          {"label": "5 hours starting between 4–8 AM",     "value": 5},
+          {"label": "5 hours starting between 8–9 AM",     "value": 4},
+          {"label": "5 hours starting between 9 AM – 2 PM","value": 3},
+          {"label": "5 hours starting between 2–5 PM",     "value": 2},
+          {"label": "5 hours starting between 5 PM – 4 AM","value": 1}
+        ]
+      },
+      {
+        "id": "q18",
+        "number": 18,
+        "category": "peak_feeling_time",
+        "prompt": "At approximately what time of day do you usually feel your best?",
+        "options": [
+          {"label": "5–8 AM",       "value": 5},
+          {"label": "8–10 AM",      "value": 4},
+          {"label": "10 AM – 5 PM", "value": 3},
+          {"label": "5–10 PM",      "value": 2},
+          {"label": "10 PM – 5 AM", "value": 1}
+        ]
+      },
+      {
+        "id": "q19",
+        "number": 19,
+        "category": "self_identified_type",
+        "prompt": "One hears about 'morning types' and 'evening types.' Which one of these types do you consider yourself to be?",
+        "options": [
+          {"label": "Definitely a morning type",                          "value": 6},
+          {"label": "Rather more a morning type than an evening type",    "value": 4},
+          {"label": "Rather more an evening type than a morning type",    "value": 2},
+          {"label": "Definitely an evening type",                         "value": 1}
+        ]
+      }
+    ],
+    "bands": [
+      {"min": 16, "max": 30, "code": "definite_evening",  "label": "Definitely Evening Type"},
+      {"min": 31, "max": 41, "code": "moderate_evening",  "label": "Moderately Evening Type"},
+      {"min": 42, "max": 58, "code": "intermediate",      "label": "Intermediate Type"},
+      {"min": 59, "max": 69, "code": "moderate_morning",  "label": "Moderately Morning Type"},
+      {"min": 70, "max": 86, "code": "definite_morning",  "label": "Definitely Morning Type"}
+    ]
+  }
 }
